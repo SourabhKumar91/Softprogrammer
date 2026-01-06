@@ -36,39 +36,8 @@ export default function About() {
           and adapt in an evolving tech-driven world.
         </motion.p>
 
-        {/* Leadership Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.9, duration: 0.6 }}
-          className="mt-12 space-y-2"
-        >
-          <p className="text-gray-700 font-medium">
-            <span className="font-semibold">Owner:</span> Vansh Arora
-          </p>
-
-          <p className="text-gray-500 text-sm">
-            <span className="font-medium text-gray-600">
-              Co-Owner / Managing Partner:
-            </span>{" "}
-            Raghav Arora
-          </p>
-        </motion.div>
-
-        {/* Creator Credit */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.2, duration: 0.6 }}
-          className="mt-8"
-        >
-          <p className="text-xs text-gray-400">
-            Website designed & developed by{" "}
-            <span className="font-medium text-gray-500">
-              Vansh Arora
-            </span>
-          </p>
-        </motion.div>
+        
+  
 
       </div>
     </section>
