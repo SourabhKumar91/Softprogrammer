@@ -119,7 +119,7 @@ export default function Footer() {
                   href="mailto:info@Aroradevelopers.com"
                   className="hover:text-indigo-500"
                 >
-                  Support@Aroradevelopers.com
+                  Support@softprogrammer.com
                 </a>
               </li>
             </ul>
